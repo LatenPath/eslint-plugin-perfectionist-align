@@ -38,9 +38,9 @@ import bb  from 'b';
 import ccc from 'c';
 import 'd';
 
-const superfoo         = 1;
-const foo2             = 2;
-const fooooooooooooooo = 234;
+const foox       = 1;
+const foo100     = 2;
+const foo1000000 = 234;
 
 const { foo = {} } = {};
 
