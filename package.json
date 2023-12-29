@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-perfectionist-align",
+  "author": "contact@latenpath.dev",
+  "version": "0.1.0",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint plugin",
+    "eslint align",
+    "align",
+    "alignment",
+    "format"
+  ],
+  "description": "ESLint plugin for align imports, assignments, etc.",
+  "homepage": "https://github.com/LatenPath/eslint-plugin-perfectionist-align",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LatenPath/eslint-plugin-perfectionist-align"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test-import": "mocha test/align-import.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "mocha": "^10.2.0"
+  }
+}
