@@ -35,7 +35,7 @@ module.exports = {
     const resolveImportIndentation = (node) => {
       if (canAlign(node)) {
         const { specifiers } = node;
-        const lastSpecifier = specifiers[specifiers.length - 1];
+        const lastSpecifier  = specifiers[specifiers.length - 1];
 
         const offset = sourceCode.getText()
           .slice(lastSpecifier.range[1], node.source.range[0])
@@ -62,7 +62,7 @@ module.exports = {
 
       // Resolve import-offset
       const { body } = parent;
-      let offset = body.indexOf(node);
+      let offset     = body.indexOf(node);
       if (offset === -1) {
         return;
       }
@@ -122,14 +122,14 @@ module.exports = {
          * @param fixer
          */
     const alignImport = (node, fixer) => {
-      const indent = resolveBlockIndentation(node);
+      const indent     = resolveBlockIndentation(node);
       const nodeIndent = resolveImportIndentation(node);
-      const padding = indent - nodeIndent;
+      const padding    = indent - nodeIndent;
 
       // Leading space in front of the import statement
       const importOffset = node.loc.start.column;
-      const rangeStart = node.range[0] + (nodeIndent - importOffset);
-      const rangeEnd = node.source.range[0];
+      const rangeStart   = node.range[0] + (nodeIndent - importOffset);
+      const rangeEnd     = node.source.range[0];
 
       return fixer.replaceTextRange(
         [rangeStart, rangeEnd],

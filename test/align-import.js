@@ -10,7 +10,7 @@
 //------------------------------------------------------------------------------
 
 const { RuleTester } = require('eslint');
-const rule = require('../rules/align-import');
+const rule           = require('../rules/align-import');
 
 //------------------------------------------------------------------------------
 // Tests
