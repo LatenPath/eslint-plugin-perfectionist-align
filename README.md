@@ -84,7 +84,7 @@ Add `eslint-plugin-perfectionist-align` to the plugins section of the ESLint con
 
 ### Flat Config ([`eslint.config.js`](https://eslint.org/docs/latest/use/configure/configuration-files-new)) (requires eslint >= v8.23.0)
 
-Read more about [migration](https://eslint.org/docs/latest/use/configure/migration-guide#using-eslintrc-configs-in-flat-configs) and setup your `config.js`:
+Read more about [migration](https://eslint.org/docs/latest/use/configure/migration-guide#using-eslintrc-configs-in-flat-configs) and setup your `eslint.config.js`:
 
 ```js
 // For ES6 import, read migration link
@@ -164,6 +164,8 @@ module.exports = [
 
 Yes. To do this, you need to enable autofix in ESLint when you save the file in your editor.
 
+To disable autofix, i recommend [no-autofix plugin](https://www.npmjs.com/package/eslint-plugin-no-autofix?activeTab=readme).
+
 ## ⚠️ Troubleshooting
 
 There are rules of ESLint and other ESLint plugins that may conflict with the rules of ESLint Plugin Perfectionist Align. We strongly recommend that you [disable rules](https://eslint.org/docs/latest/use/configure/rules#using-configuration-files-1) with similar functionality.
@@ -178,6 +180,8 @@ There are rules of ESLint and other ESLint plugins that may conflict with the ru
 This plugin is following [Semantic Versioning](https://semver.org/) and [ESLint's Semantic Versioning Policy](https://github.com/eslint/eslint#semantic-versioning-policy).
 
 ## ❤️ Contributing
+
+See [Contributing Guide](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/CONTRIBUTING.md).
 
 ## 👁 See Also
 
