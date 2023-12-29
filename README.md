@@ -30,6 +30,17 @@ const foo = 1;
 const foo100 = 2;
 const foo1000000 = 234;
 
+
+// Eslint object align, read eslint.config.js
+const someObj = {
+  someKey : true,
+  otherLongKey : false,
+  oneMoreVeryLongKey : 'some_string_value',
+  randomNumberKey : 5,
+  [foox] : null,
+  someArrowFunctionExpression : () => {},
+};
+
 ```
 
 > to
@@ -49,6 +60,29 @@ import defaultExport3, * as name2      from "module-name";
 const foo        = 1;
 const foo100     = 2;
 const foo1000000 = 234;
+
+// Eslint object align, read eslint.config.js
+const someObj = {
+  someKey                     : true,
+  otherLongKey                : false,
+  oneMoreVeryLongKey          : 'some_string_value',
+  randomNumberKey             : 5,
+  [foox]                      : null,
+  someArrowFunctionExpression : () => {},
+};
+
+```
+
+```js
+// For JSDoc alignment, use eslint-plugin-jsdoc (#See Also)
+class Foo {
+  /**
+   *  Some method
+      *  
+* @param a
+   */
+  quu(a) {}
+}
 ```
 
 ## 💿 Installation
