@@ -25,7 +25,7 @@ import { export5, export6 as alias7 } from "module-name";
 import defaultExport2, { export8 } from "module-name";
 import defaultExport3, * as name2 from "module-name";
 
-//Also assignments
+// Align assignments
 const foo = 1;
 const foo100 = 2;
 const foo1000000 = 234;
@@ -45,7 +45,7 @@ import { export5 , export6 as alias7 } from "module-name";
 import defaultExport2, { export8 }     from "module-name";
 import defaultExport3, * as name2      from "module-name";
 
-//Also assignments
+// Align assignments
 const foo        = 1;
 const foo100     = 2;
 const foo1000000 = 234;
