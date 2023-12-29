@@ -2,7 +2,7 @@
 
 ## v0.2.0
 
-[compare](https://github.com/LatenPath/eslint-plugin-perfectionist-align/compare/e3e2343...d3854fa)
+[compare](https://github.com/LatenPath/eslint-plugin-perfectionist-align/compare/v0.1.0...v0.2.0)
 
 ### 🚀 Features
 
