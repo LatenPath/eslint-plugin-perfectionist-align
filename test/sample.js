@@ -51,3 +51,13 @@ const {
   fooz = [],
   foooo = [],
 } = bar;
+
+// eslint object align
+const someObj = {
+  someKey                     : true,
+  otherLongKey                : false,
+  oneMoreVeryLongKey          : 'some_string_value',
+  randomNumberKey             : 5,
+  [foox]                      : null,
+  someArrowFunctionExpression : () => {},
+};
