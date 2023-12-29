@@ -6,7 +6,7 @@ const compat = new FlatCompat({
 
 module.exports = [
   {
-    // ignores sample.js if needed
+    // ignores test/sample.js if needed
     // ignores : ['**/test/sample.js'],
   },
   ...compat.config({
