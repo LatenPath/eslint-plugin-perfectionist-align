@@ -29,24 +29,25 @@ import defaultExport3, * as name2 from "module-name";
 const foo = 1;
 const foo100 = 2;
 const foo1000000 = 234;
+
 ```
 
 > to
 
 ```js
-import defaultExport from "module-name";
-import * as name from "module-name";
-import { export1 } from "module-name";
-import { export2 as alias1 } from "module-name";
-import { export3, export4 } from "module-name";
-import { foo, bar } from "module-name/path/to/specific/un-exported/file";
-import { export5, export6 as alias7 } from "module-name";
-import defaultExport2, { export8 } from "module-name";
-import defaultExport3, * as name2 from "module-name";
+import defaultExport                   from "module-name";
+import * as name                       from "module-name";
+import { export1 }                     from "module-name";
+import { export2 as alias1 }           from "module-name";
+import { export3 , export4 }           from "module-name";
+import { foo , bar }                   from "module-name/path/to/specific/un-exported/file";
+import { export5 , export6 as alias7 } from "module-name";
+import defaultExport2, { export8 }     from "module-name";
+import defaultExport3, * as name2      from "module-name";
 
 // Align assignments
-const foo = 1;
-const foo100 = 2;
+const foo        = 1;
+const foo100     = 2;
 const foo1000000 = 234;
 ```
 
@@ -150,9 +151,9 @@ module.exports = [
 
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                                                                                        | Description                                                                                                                         | 🔧  |
-| :-------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------- | :-- |
-| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md)         | `author` [simonwep repo](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements.                   | 🔧  |
+| Name                                                                                                                | Description                                                                                                                                                     | 🔧  |
+| :------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- |
+| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md) | `author` [simonwep repo](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements. | 🔧  |
 | [align-assignment](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-assignment.md) | `author` [lucasefe](https://github.com/lucasefe/eslint-plugin-align-assignments) - Alignment of assignment declarations in a group. | 🔧  |
 
 <!-- end auto-generated rules list -->
