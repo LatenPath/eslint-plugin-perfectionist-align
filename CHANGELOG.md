@@ -2,7 +2,7 @@
 
 ## v0.2.0
 
-[compare](github.com/<username>/<repo_name>/compare/<commit1>...<commit2>)
+[compare](https://github.com/LatenPath/eslint-plugin-perfectionist-align/compare/e3e2343...d3854fa)
 
 ### 🚀 Features
 
