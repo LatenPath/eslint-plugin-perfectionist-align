@@ -20,7 +20,8 @@ module.exports = [
       'perfectionist-align',
     ],
     rules : {
-      'perfectionist-align/align-import' : [1],
+      'perfectionist-align/align-import'     : [1],
+      'perfectionist-align/align-assignment' : [1],
 
       // align config
       'keyword-spacing' : [1],
@@ -52,6 +53,9 @@ module.exports = [
       'linebreak-style'                   : [0],
       'no-plusplus'                       : [0],
       'consistent-return'                 : [0],
+      'no-use-before-define'              : [0],
+      'max-len'                           : [0],
+      'no-template-curly-in-string'       : [0],
     },
   }),
 ];

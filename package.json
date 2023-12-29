@@ -19,7 +19,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "test-import": "mocha test/align-import.js"
+    "test-import": "mocha test/align-import.js",
+    "test-assignment": "mocha test/align-assignment.js"
   },
   "devDependencies": {
     "eslint": "^8.56.0",

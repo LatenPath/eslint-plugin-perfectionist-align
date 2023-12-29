@@ -142,7 +142,8 @@ module.exports = [
 
 | Name                                                                                                                | Description                                                                                                                                                     | 🔧  |
 | :------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- |
-| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md) | `author` [simonwep repo](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements, this is probably the rule you're looking for. | 🔧  |
+| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md) | `author` [simonwep repo](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements. | 🔧  |
+| [align-assignment](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-assignment.md) | `author` [lucasefe](https://github.com/lucasefe/eslint-plugin-align-assignments) - Alignment of assignment declarations in a group. | 🔧  |
 
 <!-- end auto-generated rules list -->
 
@@ -171,6 +172,7 @@ This plugin is following [Semantic Versioning](https://semver.org/) and [ESLint'
 
 - [`eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist) - sort everything!
 - [`eslint-plugin-align-import`](https://github.com/simonwep/eslint-plugin-align-import) - author `align-import` rule
+- [`eslint-plugin-align-assignments`](https://github.com/lucasefe/eslint-plugin-align-assignments) - author `align-assignment` rule
 
 ## 🔒 License
 
