@@ -7,17 +7,17 @@ ESLint rule to enforce alignment of assignment declarations in a group.
 Examples of **incorrect** code for this rule:
 
 ```js
-const superfoo = 1;
-const foo2 = 2;
-const fooooooooooooooo = 234;
+const foo = 1;
+const foo100 = 2;
+const foo1000000 = 234;
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
-const superfoo         = 1;
-const foo2             = 2;
-const fooooooooooooooo = 234;
+const foo        = 1;
+const foo100     = 2;
+const foo1000000 = 234;
 ```
 
 ### Options

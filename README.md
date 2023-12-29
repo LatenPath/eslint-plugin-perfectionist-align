@@ -24,6 +24,12 @@ import { foo, bar } from "module-name/path/to/specific/un-exported/file";
 import { export5, export6 as alias7 } from "module-name";
 import defaultExport2, { export8 } from "module-name";
 import defaultExport3, * as name2 from "module-name";
+
+//Also assignments
+const foo = 1;
+const foo100 = 2;
+const foo1000000 = 234;
+
 ```
 
 > to
@@ -38,6 +44,11 @@ import { foo , bar }                   from "module-name/path/to/specific/un-exp
 import { export5 , export6 as alias7 } from "module-name";
 import defaultExport2, { export8 }     from "module-name";
 import defaultExport3, * as name2      from "module-name";
+
+//Also assignments
+const foo        = 1;
+const foo100     = 2;
+const foo1000000 = 234;
 ```
 
 ## 💿 Installation
