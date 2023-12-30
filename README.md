@@ -1,6 +1,8 @@
 # ESLint Plugin Perfectionist Align
+![npm](https://img.shields.io/npm/v/eslint-plugin-perfectionist-align?link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Feslint-plugin-perfectionist-align)
+![npm](https://img.shields.io/npm/dw/eslint-plugin-perfectionist-align)
 
-`This README.md inspired by eslint-plugin-perfectionist` [repo](https://github.com/azat-io/eslint-plugin-perfectionist).
+[`This README.md inspired by eslint-plugin-perfectionist`](https://github.com/azat-io/eslint-plugin-perfectionist).
 
 ESLint plugin that sets rules to format your code and make it consistent.
 
@@ -187,7 +189,7 @@ module.exports = [
 
 | Name                                                                                                                | Description                                                                                                                                                     | 🔧  |
 | :------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-- |
-| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md) | `author` [simonwep repo](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements. | 🔧  |
+| [align-import](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-import.md) | `author` [simonwep](https://github.com/simonwep/eslint-plugin-align-import) - Aligns your import statements. | 🔧  |
 | [align-assignment](https://github.com/LatenPath/eslint-plugin-perfectionist-align/blob/main/docs/rules/align-assignment.md) | `author` [lucasefe](https://github.com/lucasefe/eslint-plugin-align-assignments) - Alignment of assignment declarations in a group. | 🔧  |
 
 <!-- end auto-generated rules list -->
